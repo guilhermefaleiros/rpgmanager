@@ -11,4 +11,8 @@ app.post('/sign/api/v1/signup', (req, res, next) =>
   signServiceProxy(req, res, next)
 )
 
+app.post('/sign/api/v1/login', (req, res, next) =>
+  signServiceProxy(req, res, next)
+)
+
 module.exports = app
